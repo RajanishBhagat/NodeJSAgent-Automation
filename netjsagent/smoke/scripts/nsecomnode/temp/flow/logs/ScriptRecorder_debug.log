@@ -1,0 +1,1201 @@
+8/10 5:39:58|ChromeMainFrame|createBrowserWindowWithListener|constructor called.
+8/10 5:39:58|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Setting User Agent=Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+8/10 5:39:59|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|method called.
+8/10 5:39:59|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling JavaScript feature.
+8/10 5:39:59|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling ImageDownload feature.
+8/10 5:39:59|ChromeBrowserConfigurationSettings|EnableDisableBrowserOtions|Enabling Plugins feature.
+8/10 5:39:59|ChromeBrowserConfigurationSettings|setSecurityCertificationErrors|Method called.
+8/10 5:39:59|ChromeMainFrame|addStatusAndTitleBrowser|Method called.
+8/10 5:39:59|ChromeMainFrame|addPageNavigationListeners|method called.
+8/10 5:39:59|ChromeBrowserNavigationListener|ChromeBrowserNavigationListener|Constructor Called.
+8/10 5:39:59|ChromeRecordingHttpListener||constructor called.
+8/10 5:39:59|ChromeMainFrame|createinitUI|constructor called.
+8/10 5:39:59|TabContent|createComponents|method called.
+8/10 5:39:59|TabContent|createBrowserContainer|method called.
+8/10 5:39:59|TabContent|createToolBar|method called.
+8/10 5:39:59|ProgressBar|initializeGUI|Method Called
+8/10 5:39:59|ToolBar|createToolBarComponents|method called.
+8/10 5:39:59|ToolBar|createAddressBar|method called.
+8/10 5:39:59|ToolBar|createActionsPane|method called.
+8/10 5:39:59|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:39:59|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470830999591
+8/10 5:39:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:39:59|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:39:59|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:39:59|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:39:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:39:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470830999645
+8/10 5:39:59|Utils|convertToSecond method called|time = 677.0
+8/10 5:39:59|Utils|isSplit|Method called.
+8/10 5:39:59|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:39:59|Utils|isSplit|Splitting for method GET = false
+8/10 5:39:59|Utils|isSplit|result = false
+8/10 5:39:59|Utils|isSplitForTimeDiff|Method called.
+8/10 5:39:59|Utils|isSplit|result = false
+8/10 5:39:59|Utils|isSplitForURLType|Method called.
+8/10 5:39:59|Utils|isSplitForURLType|value = false
+8/10 5:39:59|Utils|isSplitForURLType|value = false
+8/10 5:39:59|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:4|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:40:4|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831004678
+8/10 5:40:4|Utils|convertToSecond method called|time = 5710.0
+8/10 5:40:4|Utils|isSplit|Method called.
+8/10 5:40:4|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:4|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:4|Utils|isSplit|result = false
+8/10 5:40:4|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:4|Utils|isSplit|result = false
+8/10 5:40:4|Utils|isSplitForURLType|Method called.
+8/10 5:40:4|Utils|isSplitForURLType|value = false
+8/10 5:40:4|Utils|isSplitForURLType|value = false
+8/10 5:40:4|Utils|isSplitForURLType|value = false
+8/10 5:40:4|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:4|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:40:4|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831004678
+8/10 5:40:4|Utils|convertToSecond method called|time = 5710.0
+8/10 5:40:4|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831004678
+8/10 5:40:4|Utils|convertToSecond method called|time = 5710.0
+8/10 5:40:4|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:4|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:4|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:4|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:4|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831004743
+8/10 5:40:4|Utils|convertToSecond method called|time = 5775.0
+8/10 5:40:4|Utils|isSplit|Method called.
+8/10 5:40:4|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:4|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:4|Utils|isSplit|result = false
+8/10 5:40:4|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:4|Utils|isSplit|Splitting for time 0.06500000000000039 = false
+8/10 5:40:4|Utils|isSplit|result = false
+8/10 5:40:4|Utils|isSplitForURLType|Method called.
+8/10 5:40:4|Utils|isSplitForURLType|value = false
+8/10 5:40:4|Utils|isSplitForURLType|value = false
+8/10 5:40:4|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:5|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:5|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831005012
+8/10 5:40:5|Utils|convertToSecond method called|time = 6044.0
+8/10 5:40:5|Utils|isSplit|Method called.
+8/10 5:40:5|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:5|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:5|Utils|isSplit|result = false
+8/10 5:40:5|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:5|Utils|isSplit|Splitting for time 0.06500000000000039 = false
+8/10 5:40:5|Utils|isSplit|result = false
+8/10 5:40:5|Utils|isSplitForURLType|Method called.
+8/10 5:40:5|Utils|isSplitForURLType|value = false
+8/10 5:40:5|Utils|isSplitForURLType|value = false
+8/10 5:40:5|Utils|isSplitForURLType|value = false
+8/10 5:40:5|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:5|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:5|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831005012
+8/10 5:40:5|Utils|convertToSecond method called|time = 6044.0
+8/10 5:40:5|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831005012
+8/10 5:40:5|Utils|convertToSecond method called|time = 6044.0
+8/10 5:40:5|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:5|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:5|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:5|WebCFormattor||constructor called.
+8/10 5:40:5|ScriptHTMLStart|Recording|Thread state =2
+8/10 5:40:5|ScriptHTMLStart|run|Setting thread state.State of Thread - 2
+8/10 5:40:5|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:11|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5
+8/10 5:40:11|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5  ===== Begin = 1470831011527
+8/10 5:40:11|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5, requestOrResponce = snapShot
+8/10 5:40:11|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:11|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:11|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:11|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5, requestOrResponce = request
+8/10 5:40:11|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831011618
+8/10 5:40:11|Utils|convertToSecond method called|time = 12650.0
+8/10 5:40:11|Utils|isSplit|Method called.
+8/10 5:40:11|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:11|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:11|Utils|isSplit|result = false
+8/10 5:40:11|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:11|Utils|isSplit|Splitting for time 6.606000000000001 = false
+8/10 5:40:11|Utils|isSplit|result = false
+8/10 5:40:11|Utils|isSplitForURLType|Method called.
+8/10 5:40:11|Utils|isSplitForURLType|value = false
+8/10 5:40:11|Utils|isSplitForURLType|value = false
+8/10 5:40:11|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:11|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5, requestOrResponce = response
+8/10 5:40:11|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831011937
+8/10 5:40:11|Utils|convertToSecond method called|time = 12969.0
+8/10 5:40:11|Utils|isSplit|Method called.
+8/10 5:40:11|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:11|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:11|Utils|isSplit|result = false
+8/10 5:40:11|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:11|Utils|isSplit|Splitting for time 6.606000000000001 = false
+8/10 5:40:11|Utils|isSplit|result = false
+8/10 5:40:11|Utils|isSplitForURLType|Method called.
+8/10 5:40:11|Utils|isSplitForURLType|value = false
+8/10 5:40:11|Utils|isSplitForURLType|value = false
+8/10 5:40:11|Utils|isSplitForURLType|value = false
+8/10 5:40:11|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:11|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5
+8/10 5:40:11|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831011937
+8/10 5:40:11|Utils|convertToSecond method called|time = 12969.0
+8/10 5:40:11|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831011937
+8/10 5:40:11|Utils|convertToSecond method called|time = 12969.0
+8/10 5:40:11|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5, requestOrResponce = snapShot
+8/10 5:40:11|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:11|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:12|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:12|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831012000
+8/10 5:40:12|Utils|convertToSecond method called|time = 13032.0
+8/10 5:40:12|Utils|isSplit|Method called.
+8/10 5:40:12|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:12|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:12|Utils|isSplit|result = false
+8/10 5:40:12|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:12|Utils|isSplit|Splitting for time 0.06300000000000061 = false
+8/10 5:40:12|Utils|isSplit|result = false
+8/10 5:40:12|Utils|isSplitForURLType|Method called.
+8/10 5:40:12|Utils|isSplitForURLType|value = false
+8/10 5:40:12|Utils|isSplitForURLType|value = false
+8/10 5:40:12|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:12|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:12|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831012395
+8/10 5:40:12|Utils|convertToSecond method called|time = 13427.0
+8/10 5:40:12|Utils|isSplit|Method called.
+8/10 5:40:12|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:12|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:12|Utils|isSplit|result = false
+8/10 5:40:12|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:12|Utils|isSplit|Splitting for time 0.06300000000000061 = false
+8/10 5:40:12|Utils|isSplit|result = false
+8/10 5:40:12|Utils|isSplitForURLType|Method called.
+8/10 5:40:12|Utils|isSplitForURLType|value = false
+8/10 5:40:12|Utils|isSplitForURLType|value = false
+8/10 5:40:12|Utils|isSplitForURLType|value = false
+8/10 5:40:12|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:12|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:12|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831012395
+8/10 5:40:12|Utils|convertToSecond method called|time = 13427.0
+8/10 5:40:12|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831012395
+8/10 5:40:12|Utils|convertToSecond method called|time = 13427.0
+8/10 5:40:12|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:12|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5
+8/10 5:40:12|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5, requestOrResponce = snapShot
+8/10 5:40:12|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:15|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:15|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470831015008
+8/10 5:40:15|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:15|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:15|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:15|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:15|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:40:15|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831015091
+8/10 5:40:15|Utils|convertToSecond method called|time = 16123.0
+8/10 5:40:15|Utils|isSplit|Method called.
+8/10 5:40:15|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:15|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:15|Utils|isSplit|result = false
+8/10 5:40:15|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:15|Utils|isSplit|Splitting for time 2.6960000000000015 = false
+8/10 5:40:15|Utils|isSplit|result = false
+8/10 5:40:15|Utils|isSplitForURLType|Method called.
+8/10 5:40:15|Utils|isSplitForURLType|value = false
+8/10 5:40:15|Utils|isSplitForURLType|value = false
+8/10 5:40:15|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:15|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:40:15|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831015111
+8/10 5:40:15|Utils|convertToSecond method called|time = 16143.0
+8/10 5:40:15|Utils|isSplit|Method called.
+8/10 5:40:15|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:15|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:15|Utils|isSplit|result = false
+8/10 5:40:15|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:15|Utils|isSplit|Splitting for time 2.6960000000000015 = false
+8/10 5:40:15|Utils|isSplit|result = false
+8/10 5:40:15|Utils|isSplitForURLType|Method called.
+8/10 5:40:15|Utils|isSplitForURLType|value = false
+8/10 5:40:15|Utils|isSplitForURLType|value = false
+8/10 5:40:15|Utils|isSplitForURLType|value = false
+8/10 5:40:15|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:15|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:40:15|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831015111
+8/10 5:40:15|Utils|convertToSecond method called|time = 16143.0
+8/10 5:40:15|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831015111
+8/10 5:40:15|Utils|convertToSecond method called|time = 16143.0
+8/10 5:40:15|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:15|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:15|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:15|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:16|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000
+8/10 5:40:16|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000  ===== Begin = 1470831016829
+8/10 5:40:16|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:16|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000, requestOrResponce = snapShot
+8/10 5:40:16|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:16|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:16|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000, requestOrResponce = request
+8/10 5:40:16|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831016921
+8/10 5:40:16|Utils|convertToSecond method called|time = 17953.0
+8/10 5:40:16|Utils|isSplit|Method called.
+8/10 5:40:16|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:16|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:16|Utils|isSplit|result = false
+8/10 5:40:16|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:16|Utils|isSplit|Splitting for time 1.8099999999999987 = false
+8/10 5:40:16|Utils|isSplit|result = false
+8/10 5:40:16|Utils|isSplitForURLType|Method called.
+8/10 5:40:16|Utils|isSplitForURLType|value = false
+8/10 5:40:16|Utils|isSplitForURLType|value = false
+8/10 5:40:16|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:17|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000, requestOrResponce = response
+8/10 5:40:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831017243
+8/10 5:40:17|Utils|convertToSecond method called|time = 18275.0
+8/10 5:40:17|Utils|isSplit|Method called.
+8/10 5:40:17|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:17|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:17|Utils|isSplit|result = false
+8/10 5:40:17|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:17|Utils|isSplit|Splitting for time 1.8099999999999987 = false
+8/10 5:40:17|Utils|isSplit|result = false
+8/10 5:40:17|Utils|isSplitForURLType|Method called.
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:17|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000
+8/10 5:40:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831017243
+8/10 5:40:17|Utils|convertToSecond method called|time = 18275.0
+8/10 5:40:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831017243
+8/10 5:40:17|Utils|convertToSecond method called|time = 18275.0
+8/10 5:40:17|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000, requestOrResponce = snapShot
+8/10 5:40:17|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:17|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:17|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831017296
+8/10 5:40:17|Utils|convertToSecond method called|time = 18328.0
+8/10 5:40:17|Utils|isSplit|Method called.
+8/10 5:40:17|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:17|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:17|Utils|isSplit|result = false
+8/10 5:40:17|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:17|Utils|isSplit|Splitting for time 0.053000000000000824 = false
+8/10 5:40:17|Utils|isSplit|result = false
+8/10 5:40:17|Utils|isSplitForURLType|Method called.
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:17|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831017604
+8/10 5:40:17|Utils|convertToSecond method called|time = 18636.0
+8/10 5:40:17|Utils|isSplit|Method called.
+8/10 5:40:17|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:17|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:17|Utils|isSplit|result = false
+8/10 5:40:17|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:17|Utils|isSplit|Splitting for time 0.053000000000000824 = false
+8/10 5:40:17|Utils|isSplit|result = false
+8/10 5:40:17|Utils|isSplitForURLType|Method called.
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplitForURLType|value = false
+8/10 5:40:17|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:17|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831017604
+8/10 5:40:17|Utils|convertToSecond method called|time = 18636.0
+8/10 5:40:17|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831017604
+8/10 5:40:17|Utils|convertToSecond method called|time = 18636.0
+8/10 5:40:17|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:17|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000
+8/10 5:40:17|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000, requestOrResponce = snapShot
+8/10 5:40:17|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:19|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:19|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470831019731
+8/10 5:40:19|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:19|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:19|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:19|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:19|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:40:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831019773
+8/10 5:40:19|Utils|convertToSecond method called|time = 20805.0
+8/10 5:40:19|Utils|isSplit|Method called.
+8/10 5:40:19|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:19|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:19|Utils|isSplit|result = false
+8/10 5:40:19|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:19|Utils|isSplit|Splitting for time 2.1690000000000005 = false
+8/10 5:40:19|Utils|isSplit|result = false
+8/10 5:40:19|Utils|isSplitForURLType|Method called.
+8/10 5:40:19|Utils|isSplitForURLType|value = false
+8/10 5:40:19|Utils|isSplitForURLType|value = false
+8/10 5:40:19|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:19|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:40:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831019824
+8/10 5:40:19|Utils|convertToSecond method called|time = 20856.0
+8/10 5:40:19|Utils|isSplit|Method called.
+8/10 5:40:19|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:19|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:19|Utils|isSplit|result = false
+8/10 5:40:19|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:19|Utils|isSplit|Splitting for time 2.1690000000000005 = false
+8/10 5:40:19|Utils|isSplit|result = false
+8/10 5:40:19|Utils|isSplitForURLType|Method called.
+8/10 5:40:19|Utils|isSplitForURLType|value = false
+8/10 5:40:19|Utils|isSplitForURLType|value = false
+8/10 5:40:19|Utils|isSplitForURLType|value = false
+8/10 5:40:19|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:19|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:40:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831019824
+8/10 5:40:19|Utils|convertToSecond method called|time = 20856.0
+8/10 5:40:19|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831019824
+8/10 5:40:19|Utils|convertToSecond method called|time = 20856.0
+8/10 5:40:19|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:19|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:19|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:19|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:22|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1
+8/10 5:40:22|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1  ===== Begin = 1470831022159
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1, requestOrResponce = snapShot
+8/10 5:40:22|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:22|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:22|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1, requestOrResponce = request
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022269
+8/10 5:40:22|Utils|convertToSecond method called|time = 23301.0
+8/10 5:40:22|Utils|isSplit|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:22|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for time 2.4449999999999967 = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForURLType|Method called.
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1, requestOrResponce = response
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022589
+8/10 5:40:22|Utils|convertToSecond method called|time = 23621.0
+8/10 5:40:22|Utils|isSplit|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:22|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for time 2.4449999999999967 = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForURLType|Method called.
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:22|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022589
+8/10 5:40:22|Utils|convertToSecond method called|time = 23621.0
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022589
+8/10 5:40:22|Utils|convertToSecond method called|time = 23621.0
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1, requestOrResponce = snapShot
+8/10 5:40:22|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:22|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022648
+8/10 5:40:22|Utils|convertToSecond method called|time = 23680.0
+8/10 5:40:22|Utils|isSplit|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:22|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for time 0.05900000000000105 = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForURLType|Method called.
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022941
+8/10 5:40:22|Utils|convertToSecond method called|time = 23973.0
+8/10 5:40:22|Utils|isSplit|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:22|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:22|Utils|isSplit|Splitting for time 0.05900000000000105 = false
+8/10 5:40:22|Utils|isSplit|result = false
+8/10 5:40:22|Utils|isSplitForURLType|Method called.
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplitForURLType|value = false
+8/10 5:40:22|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:22|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022941
+8/10 5:40:22|Utils|convertToSecond method called|time = 23973.0
+8/10 5:40:22|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831022941
+8/10 5:40:22|Utils|convertToSecond method called|time = 23973.0
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:22|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1
+8/10 5:40:22|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1, requestOrResponce = snapShot
+8/10 5:40:22|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:24|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:24|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470831024919
+8/10 5:40:24|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:24|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:24|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:24|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:24|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:40:24|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831024944
+8/10 5:40:24|Utils|convertToSecond method called|time = 25976.0
+8/10 5:40:24|Utils|isSplit|Method called.
+8/10 5:40:24|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:24|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:24|Utils|isSplit|result = false
+8/10 5:40:24|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:24|Utils|isSplit|Splitting for time 2.003 = false
+8/10 5:40:24|Utils|isSplit|result = false
+8/10 5:40:24|Utils|isSplitForURLType|Method called.
+8/10 5:40:24|Utils|isSplitForURLType|value = false
+8/10 5:40:24|Utils|isSplitForURLType|value = false
+8/10 5:40:24|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:24|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:40:24|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831024977
+8/10 5:40:24|Utils|convertToSecond method called|time = 26009.0
+8/10 5:40:24|Utils|isSplit|Method called.
+8/10 5:40:24|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:24|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:24|Utils|isSplit|result = false
+8/10 5:40:24|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:24|Utils|isSplit|Splitting for time 2.003 = false
+8/10 5:40:24|Utils|isSplit|result = false
+8/10 5:40:24|Utils|isSplitForURLType|Method called.
+8/10 5:40:24|Utils|isSplitForURLType|value = false
+8/10 5:40:24|Utils|isSplitForURLType|value = false
+8/10 5:40:24|Utils|isSplitForURLType|value = false
+8/10 5:40:24|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:24|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:40:24|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831024977
+8/10 5:40:25|Utils|convertToSecond method called|time = 26009.0
+8/10 5:40:25|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831024977
+8/10 5:40:25|Utils|convertToSecond method called|time = 26009.0
+8/10 5:40:25|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:25|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:25|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:25|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:28|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes
+8/10 5:40:28|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes  ===== Begin = 1470831028321
+8/10 5:40:28|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes, requestOrResponce = snapShot
+8/10 5:40:28|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:28|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:28|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:28|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes, requestOrResponce = request
+8/10 5:40:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831028425
+8/10 5:40:28|Utils|convertToSecond method called|time = 29457.0
+8/10 5:40:28|Utils|isSplit|Method called.
+8/10 5:40:28|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:28|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:28|Utils|isSplit|result = false
+8/10 5:40:28|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:28|Utils|isSplit|Splitting for time 3.4480000000000004 = false
+8/10 5:40:28|Utils|isSplit|result = false
+8/10 5:40:28|Utils|isSplitForURLType|Method called.
+8/10 5:40:28|Utils|isSplitForURLType|value = false
+8/10 5:40:28|Utils|isSplitForURLType|value = false
+8/10 5:40:28|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:28|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes, requestOrResponce = response
+8/10 5:40:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831028828
+8/10 5:40:28|Utils|convertToSecond method called|time = 29860.0
+8/10 5:40:28|Utils|isSplit|Method called.
+8/10 5:40:28|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:28|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:28|Utils|isSplit|result = false
+8/10 5:40:28|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:28|Utils|isSplit|Splitting for time 3.4480000000000004 = false
+8/10 5:40:28|Utils|isSplit|result = false
+8/10 5:40:28|Utils|isSplitForURLType|Method called.
+8/10 5:40:28|Utils|isSplitForURLType|value = false
+8/10 5:40:28|Utils|isSplitForURLType|value = false
+8/10 5:40:28|Utils|isSplitForURLType|value = false
+8/10 5:40:28|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:28|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes
+8/10 5:40:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831028828
+8/10 5:40:28|Utils|convertToSecond method called|time = 29860.0
+8/10 5:40:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831028828
+8/10 5:40:28|Utils|convertToSecond method called|time = 29860.0
+8/10 5:40:28|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes, requestOrResponce = snapShot
+8/10 5:40:28|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:28|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:28|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:28|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831028912
+8/10 5:40:28|Utils|convertToSecond method called|time = 29944.0
+8/10 5:40:28|Utils|isSplit|Method called.
+8/10 5:40:28|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:28|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:28|Utils|isSplit|result = false
+8/10 5:40:28|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:28|Utils|isSplit|Splitting for time 0.08399999999999963 = false
+8/10 5:40:28|Utils|isSplit|result = false
+8/10 5:40:28|Utils|isSplitForURLType|Method called.
+8/10 5:40:28|Utils|isSplitForURLType|value = false
+8/10 5:40:28|Utils|isSplitForURLType|value = false
+8/10 5:40:28|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:29|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831029195
+8/10 5:40:29|Utils|convertToSecond method called|time = 30227.0
+8/10 5:40:29|Utils|isSplit|Method called.
+8/10 5:40:29|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:29|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:29|Utils|isSplit|result = false
+8/10 5:40:29|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:29|Utils|isSplit|Splitting for time 0.08399999999999963 = false
+8/10 5:40:29|Utils|isSplit|result = false
+8/10 5:40:29|Utils|isSplitForURLType|Method called.
+8/10 5:40:29|Utils|isSplitForURLType|value = false
+8/10 5:40:29|Utils|isSplitForURLType|value = false
+8/10 5:40:29|Utils|isSplitForURLType|value = false
+8/10 5:40:29|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:29|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831029195
+8/10 5:40:29|Utils|convertToSecond method called|time = 30227.0
+8/10 5:40:29|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831029195
+8/10 5:40:29|Utils|convertToSecond method called|time = 30227.0
+8/10 5:40:29|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:29|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes
+8/10 5:40:29|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes, requestOrResponce = snapShot
+8/10 5:40:29|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:31|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:31|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470831031073
+8/10 5:40:31|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:31|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:31|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:31|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:31|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:40:31|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831031088
+8/10 5:40:31|Utils|convertToSecond method called|time = 32120.0
+8/10 5:40:31|Utils|isSplit|Method called.
+8/10 5:40:31|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:31|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:31|Utils|isSplit|result = false
+8/10 5:40:31|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:31|Utils|isSplit|Splitting for time 1.8929999999999971 = false
+8/10 5:40:31|Utils|isSplit|result = false
+8/10 5:40:31|Utils|isSplitForURLType|Method called.
+8/10 5:40:31|Utils|isSplitForURLType|value = false
+8/10 5:40:31|Utils|isSplitForURLType|value = false
+8/10 5:40:31|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:31|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:40:31|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831031234
+8/10 5:40:31|Utils|convertToSecond method called|time = 32266.0
+8/10 5:40:31|Utils|isSplit|Method called.
+8/10 5:40:31|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:31|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:31|Utils|isSplit|result = false
+8/10 5:40:31|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:31|Utils|isSplit|Splitting for time 1.8929999999999971 = false
+8/10 5:40:31|Utils|isSplit|result = false
+8/10 5:40:31|Utils|isSplitForURLType|Method called.
+8/10 5:40:31|Utils|isSplitForURLType|value = false
+8/10 5:40:31|Utils|isSplitForURLType|value = false
+8/10 5:40:31|Utils|isSplitForURLType|value = false
+8/10 5:40:31|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:31|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:40:31|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831031234
+8/10 5:40:31|Utils|convertToSecond method called|time = 32266.0
+8/10 5:40:31|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831031234
+8/10 5:40:31|Utils|convertToSecond method called|time = 32266.0
+8/10 5:40:31|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:31|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:31|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:31|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:40|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/postgres
+8/10 5:40:40|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm/postgres  ===== Begin = 1470831040196
+8/10 5:40:40|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/postgres, requestOrResponce = snapShot
+8/10 5:40:40|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:40|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:40|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:40|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/postgres, requestOrResponce = request
+8/10 5:40:40|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831040321
+8/10 5:40:40|Utils|convertToSecond method called|time = 41353.0
+8/10 5:40:40|Utils|isSplit|Method called.
+8/10 5:40:40|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:40|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:40|Utils|isSplit|result = false
+8/10 5:40:40|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:40|Utils|isSplit|Splitting for time 9.087000000000003 = false
+8/10 5:40:40|Utils|isSplit|result = false
+8/10 5:40:40|Utils|isSplitForURLType|Method called.
+8/10 5:40:40|Utils|isSplitForURLType|value = false
+8/10 5:40:40|Utils|isSplitForURLType|value = false
+8/10 5:40:40|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:40|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/postgres, requestOrResponce = response
+8/10 5:40:40|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831040978
+8/10 5:40:40|Utils|convertToSecond method called|time = 42010.0
+8/10 5:40:40|Utils|isSplit|Method called.
+8/10 5:40:40|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:40|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:40|Utils|isSplit|result = false
+8/10 5:40:40|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:40|Utils|isSplit|Splitting for time 9.087000000000003 = false
+8/10 5:40:40|Utils|isSplit|result = false
+8/10 5:40:40|Utils|isSplitForURLType|Method called.
+8/10 5:40:40|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:41|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm/postgres
+8/10 5:40:41|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831040978
+8/10 5:40:41|Utils|convertToSecond method called|time = 42010.0
+8/10 5:40:41|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831040978
+8/10 5:40:41|Utils|convertToSecond method called|time = 42010.0
+8/10 5:40:41|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/postgres, requestOrResponce = snapShot
+8/10 5:40:41|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:41|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:41|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:41|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831041066
+8/10 5:40:41|Utils|convertToSecond method called|time = 42098.0
+8/10 5:40:41|Utils|isSplit|Method called.
+8/10 5:40:41|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:41|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:41|Utils|isSplit|result = false
+8/10 5:40:41|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:41|Utils|isSplit|Splitting for time 0.08800000000000097 = false
+8/10 5:40:41|Utils|isSplit|result = false
+8/10 5:40:41|Utils|isSplitForURLType|Method called.
+8/10 5:40:41|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:41|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:41|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831041350
+8/10 5:40:41|Utils|convertToSecond method called|time = 42382.0
+8/10 5:40:41|Utils|isSplit|Method called.
+8/10 5:40:41|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:41|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:41|Utils|isSplit|result = false
+8/10 5:40:41|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:41|Utils|isSplit|Splitting for time 0.08800000000000097 = false
+8/10 5:40:41|Utils|isSplit|result = false
+8/10 5:40:41|Utils|isSplitForURLType|Method called.
+8/10 5:40:41|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplitForURLType|value = false
+8/10 5:40:41|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:41|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:41|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831041350
+8/10 5:40:41|Utils|convertToSecond method called|time = 42382.0
+8/10 5:40:41|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831041350
+8/10 5:40:41|Utils|convertToSecond method called|time = 42382.0
+8/10 5:40:41|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:41|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/postgres
+8/10 5:40:41|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/postgres, requestOrResponce = snapShot
+8/10 5:40:41|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:43|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:43|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470831043663
+8/10 5:40:43|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:43|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:43|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:43|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:43|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:40:43|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831043704
+8/10 5:40:43|Utils|convertToSecond method called|time = 44736.0
+8/10 5:40:43|Utils|isSplit|Method called.
+8/10 5:40:43|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:43|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:43|Utils|isSplit|result = false
+8/10 5:40:43|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:43|Utils|isSplit|Splitting for time 2.353999999999999 = false
+8/10 5:40:43|Utils|isSplit|result = false
+8/10 5:40:43|Utils|isSplitForURLType|Method called.
+8/10 5:40:43|Utils|isSplitForURLType|value = false
+8/10 5:40:43|Utils|isSplitForURLType|value = false
+8/10 5:40:43|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:43|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:40:43|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831043785
+8/10 5:40:43|Utils|convertToSecond method called|time = 44817.0
+8/10 5:40:43|Utils|isSplit|Method called.
+8/10 5:40:43|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:43|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:43|Utils|isSplit|result = false
+8/10 5:40:43|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:43|Utils|isSplit|Splitting for time 2.353999999999999 = false
+8/10 5:40:43|Utils|isSplit|result = false
+8/10 5:40:43|Utils|isSplitForURLType|Method called.
+8/10 5:40:43|Utils|isSplitForURLType|value = false
+8/10 5:40:43|Utils|isSplitForURLType|value = false
+8/10 5:40:43|Utils|isSplitForURLType|value = false
+8/10 5:40:43|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:43|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:40:43|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831043785
+8/10 5:40:43|Utils|convertToSecond method called|time = 44817.0
+8/10 5:40:43|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831043785
+8/10 5:40:43|Utils|convertToSecond method called|time = 44817.0
+8/10 5:40:43|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:43|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:43|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:43|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:51|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/manyTier
+8/10 5:40:51|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:51|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm/manyTier  ===== Begin = 1470831051143
+8/10 5:40:51|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/manyTier, requestOrResponce = snapShot
+8/10 5:40:51|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:51|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/manyTier, requestOrResponce = request
+8/10 5:40:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 14708310511568/10 5:40:51|ProgressBar|setVisible|Method Called. bool = true
+
+8/10 5:40:51|Utils|convertToSecond method called|time = 52188.0
+8/10 5:40:51|Utils|isSplit|Method called.
+8/10 5:40:51|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:51|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:51|Utils|isSplit|result = false
+8/10 5:40:51|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:51|Utils|isSplit|Splitting for time 7.371000000000002 = false
+8/10 5:40:51|Utils|isSplit|result = false
+8/10 5:40:51|Utils|isSplitForURLType|Method called.
+8/10 5:40:51|Utils|isSplitForURLType|value = false
+8/10 5:40:51|Utils|isSplitForURLType|value = false
+8/10 5:40:51|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:51|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/manyTier, requestOrResponce = response
+8/10 5:40:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831051658
+8/10 5:40:51|Utils|convertToSecond method called|time = 52690.0
+8/10 5:40:51|Utils|isSplit|Method called.
+8/10 5:40:51|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:51|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:51|Utils|isSplit|result = false
+8/10 5:40:51|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:51|Utils|isSplit|Splitting for time 7.371000000000002 = false
+8/10 5:40:51|Utils|isSplit|result = false
+8/10 5:40:51|Utils|isSplitForURLType|Method called.
+8/10 5:40:51|Utils|isSplitForURLType|value = false
+8/10 5:40:51|Utils|isSplitForURLType|value = false
+8/10 5:40:51|Utils|isSplitForURLType|value = false
+8/10 5:40:51|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:51|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm/manyTier
+8/10 5:40:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831051658
+8/10 5:40:51|Utils|convertToSecond method called|time = 52690.0
+8/10 5:40:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831051658
+8/10 5:40:51|Utils|convertToSecond method called|time = 52690.0
+8/10 5:40:51|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/manyTier, requestOrResponce = snapShot
+8/10 5:40:51|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:51|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:51|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:51|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831051714
+8/10 5:40:51|Utils|convertToSecond method called|time = 52746.0
+8/10 5:40:51|Utils|isSplit|Method called.
+8/10 5:40:51|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:51|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:51|Utils|isSplit|result = false
+8/10 5:40:51|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:51|Utils|isSplit|Splitting for time 0.05600000000000449 = false
+8/10 5:40:51|Utils|isSplit|result = false
+8/10 5:40:51|Utils|isSplitForURLType|Method called.
+8/10 5:40:51|Utils|isSplitForURLType|value = false
+8/10 5:40:51|Utils|isSplitForURLType|value = false
+8/10 5:40:51|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:52|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:52|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831052104
+8/10 5:40:52|Utils|convertToSecond method called|time = 53136.0
+8/10 5:40:52|Utils|isSplit|Method called.
+8/10 5:40:52|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:52|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:52|Utils|isSplit|result = false
+8/10 5:40:52|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:52|Utils|isSplit|Splitting for time 0.05600000000000449 = false
+8/10 5:40:52|Utils|isSplit|result = false
+8/10 5:40:52|Utils|isSplitForURLType|Method called.
+8/10 5:40:52|Utils|isSplitForURLType|value = false
+8/10 5:40:52|Utils|isSplitForURLType|value = false
+8/10 5:40:52|Utils|isSplitForURLType|value = false
+8/10 5:40:52|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:52|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:52|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831052104
+8/10 5:40:52|Utils|convertToSecond method called|time = 53136.0
+8/10 5:40:52|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831052104
+8/10 5:40:52|Utils|convertToSecond method called|time = 53136.0
+8/10 5:40:52|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:52|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/manyTier
+8/10 5:40:52|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/manyTier, requestOrResponce = snapShot
+8/10 5:40:52|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:55|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:55|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:55|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470831055821
+8/10 5:40:55|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:55|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:55|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:40:55|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831055828
+8/10 5:40:55|Utils|convertToSecond method called|time = 56860.0
+8/10 5:40:55|Utils|isSplit|Method called.
+8/10 5:40:55|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:55|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:55|Utils|isSplit|result = false
+8/10 5:40:55|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:55|Utils|isSplit|Splitting for time 3.7239999999999966 = false
+8/10 5:40:55|Utils|isSplit|result = false
+8/10 5:40:55|Utils|isSplitForURLType|Method called.
+8/10 5:40:55|Utils|isSplitForURLType|value = false
+8/10 5:40:55|Utils|isSplitForURLType|value = false
+8/10 5:40:55|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:55|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:55|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:40:55|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831055889
+8/10 5:40:55|Utils|convertToSecond method called|time = 56921.0
+8/10 5:40:55|Utils|isSplit|Method called.
+8/10 5:40:55|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:55|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:55|Utils|isSplit|result = false
+8/10 5:40:55|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:55|Utils|isSplit|Splitting for time 3.7239999999999966 = false
+8/10 5:40:55|Utils|isSplit|result = false
+8/10 5:40:55|Utils|isSplitForURLType|Method called.
+8/10 5:40:55|Utils|isSplitForURLType|value = false
+8/10 5:40:55|Utils|isSplitForURLType|value = false
+8/10 5:40:55|Utils|isSplitForURLType|value = false
+8/10 5:40:55|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:55|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:40:55|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831055889
+8/10 5:40:55|Utils|convertToSecond method called|time = 56921.0
+8/10 5:40:55|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831055889
+8/10 5:40:55|Utils|convertToSecond method called|time = 56921.0
+8/10 5:40:55|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:56|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:40:56|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:40:56|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:40:58|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/mongodb
+8/10 5:40:58|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm/mongodb  ===== Begin = 1470831058824
+8/10 5:40:58|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/mongodb, requestOrResponce = snapShot
+8/10 5:40:58|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:58|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:58|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/mongodb, requestOrResponce = request
+8/10 5:40:58|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831058836
+8/10 5:40:58|Utils|convertToSecond method called|time = 59868.0
+8/10 5:40:58|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:40:58|Utils|isSplit|Method called.
+8/10 5:40:58|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:58|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:58|Utils|isSplit|result = false
+8/10 5:40:58|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:58|Utils|isSplit|Splitting for time 2.9470000000000027 = false
+8/10 5:40:58|Utils|isSplit|result = false
+8/10 5:40:58|Utils|isSplitForURLType|Method called.
+8/10 5:40:58|Utils|isSplitForURLType|value = false
+8/10 5:40:58|Utils|isSplitForURLType|value = false
+8/10 5:40:58|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/mongodb, requestOrResponce = response
+8/10 5:40:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831059528
+8/10 5:40:59|Utils|convertToSecond method called|time = 60560.0
+8/10 5:40:59|Utils|isSplit|Method called.
+8/10 5:40:59|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:59|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:59|Utils|isSplit|result = false
+8/10 5:40:59|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:59|Utils|isSplit|Splitting for time 2.9470000000000027 = false
+8/10 5:40:59|Utils|isSplit|result = false
+8/10 5:40:59|Utils|isSplitForURLType|Method called.
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:59|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm/mongodb
+8/10 5:40:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831059528
+8/10 5:40:59|Utils|convertToSecond method called|time = 60560.0
+8/10 5:40:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831059528
+8/10 5:40:59|Utils|convertToSecond method called|time = 60560.0
+8/10 5:40:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/mongodb, requestOrResponce = snapShot
+8/10 5:40:59|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:40:59|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:40:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = request
+8/10 5:40:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831059593
+8/10 5:40:59|Utils|convertToSecond method called|time = 60625.0
+8/10 5:40:59|Utils|isSplit|Method called.
+8/10 5:40:59|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:59|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:59|Utils|isSplit|result = false
+8/10 5:40:59|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:59|Utils|isSplit|Splitting for time 0.06499999999999773 = false
+8/10 5:40:59|Utils|isSplit|result = false
+8/10 5:40:59|Utils|isSplitForURLType|Method called.
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = response
+8/10 5:40:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831059897
+8/10 5:40:59|Utils|convertToSecond method called|time = 60929.0
+8/10 5:40:59|Utils|isSplit|Method called.
+8/10 5:40:59|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:40:59|Utils|isSplit|Splitting for method GET = false
+8/10 5:40:59|Utils|isSplit|result = false
+8/10 5:40:59|Utils|isSplitForTimeDiff|Method called.
+8/10 5:40:59|Utils|isSplit|Splitting for time 0.06499999999999773 = false
+8/10 5:40:59|Utils|isSplit|result = false
+8/10 5:40:59|Utils|isSplitForURLType|Method called.
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplitForURLType|value = false
+8/10 5:40:59|Utils|isSplit|isSplitForURLType = false
+8/10 5:40:59|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/images/logo.png
+8/10 5:40:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831059897
+8/10 5:40:59|Utils|convertToSecond method called|time = 60929.0
+8/10 5:40:59|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831059897
+8/10 5:40:59|Utils|convertToSecond method called|time = 60929.0
+8/10 5:40:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/images/logo.png, requestOrResponce = snapShot
+8/10 5:40:59|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm/mongodb
+8/10 5:40:59|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm/mongodb, requestOrResponce = snapShot
+8/10 5:41:0|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:41:2|ChromeBrowserNavigationListener|onStartLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:2|ChromeBrowserNavigationListener|onStartLoadingFrame|Begin Loading URL == http://192.208.179.130:3000/nsecomm  ===== Begin = 1470831062359
+8/10 5:41:2|ChromeRecordingHttpListener|onBeforeURLRequest|method called.
+8/10 5:41:2|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:41:2|ChromeRecordingHttpListener|dumpRequestHeaders|method called.
+8/10 5:41:2|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = request
+8/10 5:41:2|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831062368
+8/10 5:41:2|Utils|convertToSecond method called|time = 63400.0
+8/10 5:41:2|Utils|isSplit|Method called.
+8/10 5:41:2|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:41:2|Utils|isSplit|Splitting for method GET = false
+8/10 5:41:2|Utils|isSplit|result = false
+8/10 5:41:2|Utils|isSplitForTimeDiff|Method called.
+8/10 5:41:2|Utils|isSplit|Splitting for time 2.4709999999999965 = false
+8/10 5:41:2|Utils|isSplit|result = false
+8/10 5:41:2|Utils|isSplitForURLType|Method called.
+8/10 5:41:2|Utils|isSplitForURLType|value = false
+8/10 5:41:2|Utils|isSplitForURLType|value = false
+8/10 5:41:2|Utils|isSplit|isSplitForURLType = false
+8/10 5:41:2|ProgressBar|setVisible|Method Called. bool = true
+8/10 5:41:2|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = response
+8/10 5:41:2|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831062461
+8/10 5:41:2|Utils|convertToSecond method called|time = 63493.0
+8/10 5:41:2|Utils|isSplit|Method called.
+8/10 5:41:2|Utils|isSplit|Splitting for Ajax Header = false
+8/10 5:41:2|Utils|isSplit|Splitting for method GET = false
+8/10 5:41:2|Utils|isSplit|result = false
+8/10 5:41:2|Utils|isSplitForTimeDiff|Method called.
+8/10 5:41:2|Utils|isSplit|Splitting for time 2.4709999999999965 = false
+8/10 5:41:2|Utils|isSplit|result = false
+8/10 5:41:2|Utils|isSplitForURLType|Method called.
+8/10 5:41:2|Utils|isSplitForURLType|value = false
+8/10 5:41:2|Utils|isSplitForURLType|value = false
+8/10 5:41:2|Utils|isSplitForURLType|value = false
+8/10 5:41:2|Utils|isSplit|isSplitForURLType = false
+8/10 5:41:2|ChromeRecordingHttpListener|checkSplitOptionAndCaptureSnapShotForResponse|Auto split option not valid for URL = http://192.208.179.130:3000/nsecomm
+8/10 5:41:2|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831062461
+8/10 5:41:2|Utils|convertToSecond method called|time = 63493.0
+8/10 5:41:2|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831062461
+8/10 5:41:2|Utils|convertToSecond method called|time = 63493.0
+8/10 5:41:2|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:41:2|ChromeBrowserNavigationListener|onFinishLoadingFrame|Method Called for URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:2|Utils|getURLTracker|urlString = http://192.208.179.130:3000/nsecomm, requestOrResponce = snapShot
+8/10 5:41:2|ProgressBar|setVisible|Method Called. bool = false
+8/10 5:41:10|ScriptHTMLStart|stopRecording|Method Called.
+8/10 5:41:10|ScriptHTMLStart|stopRecording|Going to stop recording
+8/10 5:41:10|NSChromeBrowser|stopRecord|Method called.
+8/10 5:41:11|ChromeMainFrame|addBrowserDisposeListener|browser disposed called.
+8/10 5:41:11|WebCFormattor|generateScripts|method called.
+8/10 5:41:11|Utils|addLastPageLeftUrlsToInlineUrlsOfLastPage|Method called.
+8/10 5:41:11|Utils|modifyMapForSplit|Method called.
+8/10 5:41:11|Utils|modifyMapForThinkTime|Method called.
+8/10 5:41:11|Utils|getRelativeTimeWithRespectOfStartRecordingTime|Method called.time stamp = 1470831070200
+8/10 5:41:11|Utils|convertToSecond method called|time = 71232.0
+8/10 5:41:11|Utils|modifyMapForThinkTime|Modifying url list for last page=nsecomm_8, startThink=63.493, endThink=71.232
+8/10 5:41:11|Utils|generateEventDetail|method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:11|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|method called
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 5.0329999999999995
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.26899999999999924
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.31899999999999906
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.3949999999999996
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = checkOutAndPlaceOrder.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.019999999999999574
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm_2.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.3219999999999992
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.30799999999999983
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = checkOutAndPlaceOrder_2.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.05100000000000193
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm_3.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.3200000000000003
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.29299999999999926
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = checkOutAndPlaceOrder_3.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.03300000000000125
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm_4.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.4029999999999987
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.28300000000000125
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = checkOutAndPlaceOrder_4.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.1460000000000008
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm_5.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm/postgres
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.6569999999999965
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.2839999999999989
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = postgres.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.08100000000000307
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm_6.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm/manyTier
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.5019999999999953
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.39000000000000057
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = manyTier.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.06099999999999994
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm_7.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm/mongodb
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.6920000000000002
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/images/logo.png
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.30400000000000205
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = mongodb.html
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|ScriptparsingData =http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|convertToSecond method called|time = 0.09300000000000352
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Method called. path = C:\Users\hp1\Desktop\recorder\scripts\nde\nde\NodeJS_Nsecomm_130_ConnectPostgre\dump\flow, fileName = nsecomm_8.html
+8/10 5:41:12|WebCFormattor|generateEventsForFlow|method called.
+8/10 5:41:12|WebCGenerator|generate|method called.
+8/10 5:41:12|WebCGenerator|generate|Putting header comments in Buffer.
+8/10 5:41:12|WebCGenerator|generate|Processing URLs with list size=15
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 6.606000000000001
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 2.6960000000000015
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|Utils|convertToSecond method called|time = 1.8099999999999987
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 2.1690000000000005
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|Utils|convertToSecond method called|time = 2.4449999999999967
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 2.003
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|Utils|convertToSecond method called|time = 3.4480000000000004
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 1.8929999999999971
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|Utils|convertToSecond method called|time = 9.087000000000003
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm/postgres
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 2.353999999999999
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|Utils|convertToSecond method called|time = 7.371000000000002
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm/manyTier
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 3.7239999999999966
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|Utils|convertToSecond method called|time = 2.9470000000000027
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm/mongodb
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|WebCGenerator|generate|Adding Inline template to the page.
+8/10 5:41:12|WebCGenerator|appendHeadersAndEndline|method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|Utils|convertToSecond method called|time = 2.4709999999999965
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getValidURL|Since this URL is not in filtered list, returning the URL=http://192.208.179.130:3000/nsecomm
+8/10 5:41:12|Utils|getTimeStampForPage|Method called.
+8/10 5:41:12|WebCGenerator|getUrlReqAndResDetails|method called.
+8/10 5:41:12|WebCGenerator|appendRealBrowserData|method called. The isRealBrowser value = false
+8/10 5:41:12|Utils|convertToSecond method called|time = 7.738999999999997
+8/10 5:41:12|ChromeMainFrame|addBrowserDisposeListener|browser disposed Exiting.
+8/10 5:41:12|ScriptHTMLStart|stopRecording|Going to upload script to server.
+8/10 5:41:16|ScriptRecordUtils|saveScriptToServer|method called.

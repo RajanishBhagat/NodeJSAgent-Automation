@@ -1,0 +1,6 @@
+7|Home|2|1|/nsecomm|0
+7|Checkout|3|1|/nsecomm/checkOut|0
+7|ManyTier|4|1|/nsecomm/manyTier|0
+7|MongoDB|5|1|/nsecomm/mongodb|0
+7|Redis|6|1|/nsecomm/redis|0
+7|ZooKeeper|8|1|/nsecomm/zoo|0

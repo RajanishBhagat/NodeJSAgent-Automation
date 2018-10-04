@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<project name="smoke" default="default" basedir=".">
+  <description>Smoke automation suite</description>
+  <property name="smoke.project" value="automation"/>
+  <property name="smoke.subproject" value="smoke"/>
+  <property name="scripts.dir" value="${ns.wdir}/scripts/${smoke.project}/${smoke.subproject}"/> 
+  <property name="scenarios.dir" value="${ns.wdir}/scenarios/${smoke.project}/${smoke.subproject}"/> 
+  <property name="testsuites.dir" value="${ns.wdir}/testsuites/${smoke.project}/${smoke.subproject}"/> 
+  <property name="testcases.dir" value="${ns.wdir}/testcases/${smoke.project}/${smoke.subproject}"/> 
+  <property name="ndprof.dir" value="${ns.wdir}/ndprof/${smoke.subproject}"/>                
+  <property name="topology.dir" value="${ns.wdir}/topology/${smoke.subproject}"/> 
+  <property name="mail.dir" value="${basedir}/etc/mail"/>
+  <property name="mail.out.dir" value="${mail.dir}/.out"/>
+
+  <!--target definition-->
+  <target name="clean">
+    <delete dir="${scripts.dir}"/>
+    <delete dir="${scenarios.dir}"/>
+    <delete dir="${ndprof.dir}"/>  
+    <delete dir="${topology.dir}"/>
+    <delete dir="${testsuites.dir}"/>
+    <delete dir="${testcases.dir}"/>
+    <delete dir="${ns.wdir}/lib"/>
+  </target>
+
+  <target name="create-workbench">
+    <mkdir dir="${scripts.dir}"/>
+    <mkdir dir="${scenarios.dir}"/>
+    <mkdir dir="${ndprof.dir}"/>        
+    <mkdir dir="${topology.dir}"/>
+    <mkdir dir="${testsuites.dir}"/>
+    <mkdir dir="${testcases.dir}"/>
+    <mkdir dir="${ns.wdir}/lib"/>
+  </target>
+
+
+  <target name="copy-workbench-files" depends="create-workbench">
+    <copy todir="${scripts.dir}">
+      <fileset dir="scripts"/>
+    </copy>
+    <copy todir="${scenarios.dir}">
+      <fileset dir="scenarios"/>
+    </copy>
+   <!-- <copy todir="${topology.dir}">
+      <fileset dir="topology/default"/>
+    </copy>-->
+    <copy todir="${topology.dir}">
+      <fileset dir="topology"/>
+    </copy>
+     <copy todir="${ndprof.dir}">                                                            
+           <fileset dir="ndprof"/>                                                             
+     </copy> 
+    <copy todir="${testsuites.dir}">
+      <fileset dir="testsuites"/>
+    </copy>
+    <copy todir="${testcases.dir}">
+      <fileset dir="testcases"/>
+    </copy>
+    <copy todir="${ns.wdir}/lib">
+      <fileset dir="${lib.dir}"/>
+      <fileset dir="etc"/>
+    </copy>
+
+  <chmod perm="775">
+    <fileset dir="${testcases.dir}">
+      <include name="**/*_test_*"/>
+      <include name="**/check_status"/>
+    </fileset>
+    <dirset dir="${scripts.dir}">
+      <include name="**/*"/>
+    </dirset>
+    <dirset dir="${scenarios.dir}">
+      <include name="**/*"/>
+    </dirset>
+    <dirset dir="${testcases.dir}">
+      <include name="**/*"/>
+    </dirset>
+    <dirset dir="${testsuites.dir}">
+      <include name="**/*"/>
+    </dirset>
+    <dirset dir="${topology.dir}">
+      <include name="**/*"/>
+    </dirset>
+    <dirset dir="${ndprof.dir}">                                                         
+      <include name="**/*"/>                                                           
+    </dirset>       
+    <dirset dir="${ns.wdir}/lib">
+      <include name="**/*"/>
+    </dirset>
+  </chmod>
+
+   <chmod file="${scripts.dir}" perm="775" type="both"/>
+   <chmod file="${scenarios.dir}" perm="775" type="both"/>
+   <chmod file="${testcases.dir}" perm="775" type="both"/>
+   <chmod file="${testsuites.dir}" perm="775" type="both"/>
+   <chmod file="${ndprof.dir}" perm="775" type="both"/>      
+   <chmod file="${topology.dir}" perm="775" type="both"/>
+   <chmod file="${ns.wdir}/lib" perm="775" type="both"/>
+  </target>
+  
+
+  <target name="default">
+    <echo message="Running default target"/>
+  </target>
+
+  <target name="run-smoke" depends="clean, copy-workbench-files, calc-start-time">
+    <echo message="Running ..."/>
+    <exec executable="${bash}" failonerror="false">
+      <arg value="${script.suite.runner}"/>
+      <arg value="${smoke.project}/${smoke.subproject}/smoke"/>
+    </exec>
+  </target>
+ <target name="smoke" depends="run-smoke, gen-reports"/>  
+<!--   <target name="smoke" depends="run-smoke"/>  -->
+  <target name="calc-start-time">
+    <exec executable="${bash}" outputproperty="automation.start.time">
+      <arg value="-c"/>
+      <arg value="date +'%D %r'"/>
+    </exec>
+  <echo message="Test started at: ${automation.start.time}"/>
+  </target>
+
+  <target name="calc-end-time">
+    <exec executable="${bash}" outputproperty="automation.end.time">
+      <arg value="-c"/>
+      <arg value="date +'%D %r'"/>
+    </exec>
+    <echo message="Test ended at: ${automation.end.time}"/>
+  </target>
+
+  <target name="gen-reports" depends="calc-start-time, calc-end-time, update-email-config">
+    <echo message="Loading properties from ${mail.dir}/mail.properties"/>
+    <property file="${mail.dir}/mail.properties"/>
+    <mail 
+      enableStartTLS="true"
+      ssl="true"
+      mailhost="${mail.host}"
+      mailport="${mail.port}"
+      user="${mail.user}"
+      password="${mail.password}"
+      tolist="${mail.to.list}"
+      cclist="${mail.cc.list}"
+      messageMimeType="text/html"
+      subject="[NETJSAGENT] Smoke results for R${release.info}.B${build.info}"
+      messagefile="${mail.out.dir}/smoke.mail.body.html">
+      <from address="automation@cavisson.com"/>
+    </mail>
+  </target>
+  <target name="update-email-config" description="Updates email configurations post test">
+    <sleep seconds="1"/>
+    <exec executable="${script.get.latest.file}" outputproperty="smoke.result.file" failonerror="true">
+      <arg value="-d"/>
+      <arg value="${results.dir}/${release.info}/${build.info}"/>
+      <arg value="-p"/>
+      <arg value="*.txt"/>
+    </exec>
+    <echo message="Result file is: ${smoke.result.file}"/>
+    <exec executable="${script.gen.report}" failonerror="true">
+      <arg value="-f"/>
+      <arg value="${smoke.result.file}"/>
+      <arg value="-c"/>
+      <arg value="Smoke"/>
+      <arg value="-r"/>
+      <arg value="${release.info}"/>
+      <arg value="-v"/>
+      <arg value="${build.info}"/>
+      <arg value="-o"/>
+      <arg value="${mail.out.dir}/smoke.mail.body.html"/>
+      <arg value="-s"/>
+      <arg value="${automation.start.time}"/>
+      <arg value="-e"/>
+      <arg value="${automation.end.time}"/>
+    </exec>
+    <echo message="Generated HTML Report in ${mail.out.dir}/smoke.mail.body.html"/>
+  </target>
+</project>

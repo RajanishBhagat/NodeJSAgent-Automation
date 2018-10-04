@@ -1,0 +1,303 @@
+#***********************************************************************************
+# KeywordsDefination.dat
+#
+#   This file contains the definitions and default values of the Keywords
+#   for BCI configuration. If any keyword needs to be configured as a value
+#   different from default, its value need to be provided in ND_BCI_AGENT 
+#   keyword in nd.conf file.
+#
+#
+# Types (Second field):       
+#
+#   0 - char(values 0-255)
+#   1 - integer
+#   2 - double
+#   3 - long long
+#   4 - string (In case of string, min and max fields represent allowed 
+#               min and max number of characters)
+#   5 - file  (This is the complete path of the file.
+#              Default value can be 'NA'
+#              If file name is not given as 'NA' then it should be present at the path)
+#************************************************************************************
+#Keyword|Default|Type|Min|Max|Do not Send to BCI(1- Not Send, otherwise send)||GUIName|In GUI?|Description
+enableIPResourceURL|0|1|0|1|0|-|Enable/Disable Resource URL |Y|Enable/Disable Resource URL
+captureDocumentforMongo|0|1|0|1|0|-|MongoDB|Y|Capture MongoDB Document
+addObjectInQueryForCloudant|0|1|0|1|0|-|CloudantDB|Y|Capture Query for cloudant DB
+instrProfile|-|4|0|2048|0|-|Instrumentation Profile|Y|Instrumentation profile FQ or relative pathname from $NS_WDIR/instrprof/.whitelist/
+instrLog4J|0|0|0|1|0|-|Enable Applogs Data|Y|Enable application log messages on applog data connection
+enableAddingHdrForEndeca|0|0|0|1|0|-|Enable adding header record for Endeca|Y|Enable adding header record for Endeca
+collectIndependentQuery|0|0|0|1|0|-|Enable Captuiring of independent query|Y|Enable capturing of independent query
+NDAppLogFile|NA|5|1|1024|0|-|Filename containing the Logging Framework List|Y|Filename containing the Logging Framework List
+ndGenLogCaptureFileList|NA|5|1|1024|0|-|List of Filename containing the Logging Framework List|Y|List of Filename containing the Logging Framework List
+genNewSQLRecords|1|0|0|1|0|-|Enable Generating New Records for SQL in 22 and 23 record format for prepared query and non prepared queries|N|This keyword is just an acknowledgement to BCIAgent for helping him to identify Current NDC/NDP is having new latest patch of NDC, so BCI can send 22,23 records instead 21.If this keyword not present BCI must send 21 records for both prepared and non prepared queries metarecord
+AppLogTraceLevel|0|1|0|6|0|-|Applog trace level|Y|Applog trace level
+enableCloudantBackendMode|2|1|0|6|0|-|Cloudant Mode|Y|Cloudant mode - 1 for Old 2 for New mode where default is 2
+enableHeartBeatLog|0|1|0|6|0|-|Heartbit log level|Y|Heartbit message debug log level 0 - donot log anything 1 - log only heartbit message , more than 1 log data channel infor and instrumentation busy flag aswell
+dumpSQLQuery|1|0|0|1|0|-|Enable SQL Query Data|Y|Enable instrumentation of SQL Query
+flushInterval|100|3|0|300000|0|-|Data Flush Interval (ms)|Y|Interval in milliseconds for flushing raw data on socket
+bciDataBuffIncreament|0|1|0|30000|0|-|Number of new data buffers added when full|Y|Number of data buffers to be increased when current buffers are full
+bciDataBufferMaxCount|512|3|1|30000|0|-|Max Data Buffers Count|Y|Max number of data buffers
+bciDataBufferMaxSize|32768|3|128|65536|0|-|Max Data Buffer size in bytes|Y|Max data buffer size in bytes
+socketBufferSize|128|3|0|1048576|0|-|Socket Buffer Size|Y|Size of the socket buffer
+bciUriLogLevel|1|0|0|1|0|-|Enable JSP Pagename|Y|Enable pagename for JSP service method
+bciUriMaxLength|1024|1|0|2147483647|0|-|Max URI Length including Query parameters processed by BCI|Y|Max string length of URI including Query parameter as processed in BCI
+urlLength|1024|1|0|2147483647|0|-|Max URL Length to be displayed in Reports|Y|Max string length of URL name for BCI discovered URLs as dumped in URL Discovery (7) record
+uriQueryLength|1024|1|0|2147483647|0|-|Max URI Query Length to be displayed in Reports|Y|Max string length of URI query string as dumped in Flowpath Mapping (9) record
+bciInstrSessionPct|0|4|0|100|0|-|Percent Requests With FP Enabled|Y|Fraction percent number of requests for which flowpath is generated. In case a URL request has NS generated FP Instance, BCI does nothing.
+logNonNSUrlAndQueryRecord|0|0|0|2|0|-|Enable BCI discovered URL and URI Query|Y|Enable URL discovery (7) and Flowpath mapping (9) records in BCI ND data. Applicable only when logNonNSFlowpath is enabled
+bciMaxNonServiceMethodsPerFP|50000|4|0|2147483647|0|-|Max non service methods per FP|Y|Max number of non service methods in a flowpath
+bciMaxServiceMethodsPerFP|5000|4|0|2147483647|0|-|Max service methods per FP|Y|Max number of service methods in a flowpath
+logLevelOneFpMethod|1|0|0|1|0|-|Enable 1 level FP for FP Disabled Requests|Y|Generate flowpaths for all requests, dump exit and entry records of only first instrumented method where FP is neither enabled from NS nor by BCI
+entryMethodMaxDepth|9999|1|0|9999|0|-|Max depth for Service methods|Y|Max stack depth for JSP Service methods as displayed in Flowpath Sequence Diagram
+ctrlConnIdleTimeMaxCount|10|1|0|120|0|-|BCI Control connection idle timeout|Y|Timeout in minutes while waiting for stop instrumentation on control connection after retry message recieved on new control channel. On this timeout, BCI sends a stop_instrumentation message OK Response and closes all the connections
+instrProfileContentMaxIdleTime|1|1|0|120|0|-|Max Idle Time to recieve Instrument profile contents|Y|Timeout in minutes while waiting for instrument profile content. BCI sends an error message  and closes all the connections
+#
+enableBciDebug|1|0|0|6|0|-|Enable BCI debug logging|N|Enable BCI debug log, default is on with low level 
+enableBciError|1|4|1|100|0|-|Enable BCI error logging|N|Enable BCI error log, default is off.Syntax- <errorlevel><%20><stackdepth(if level is 3)> : levels - 0 -off, 1- on, 2-on with complete stacktrace, 3- on with specified stack trace (if with 3 no stacktrace depth specified, than BCIAgent will considere for 9999 depth) depth- if level 3 is choosen and depth value is specified than upto that depth stacks of exception will be captured.
+InstrTraceLevel|0|1|0|11|0|-|Capture Instrumenting Tarces|N|Capture BCI trace log for instrumenting constraints
+enableWaitSyncQueueTime|1|1|0|1|0|-|Enable/Disable Queue Time |Y|Enable/Disable Queue Time
+#for Critical files configuration in start_instrumentation file
+ndCriticalFileKeyword|NA|5|1|1024|0|-|Filename containing the BCI config files which will be critical|Y|Filename containing BCI Config files which will be critical for start_instrumentation process
+NDEntryPointsFile|NA|5|1|1024|0|-|Filename containing the Config class or method names|Y|Filename containing Config class or method names, which can be added or removed at run time
+NDInterfaceFile|NA|5|1|1024|0|-|Filename containing the list of interfaces |Y|Filename containing all targeted Interfaces through which BCI will auto instrument all implementing classes
+enableInterfaceInstr|0|0|0|6|0|-|Enable Interface Instrumentation Mode|Y|Enable Instrumenting all Classes automatically which implements targeted interfaces using NDInterfaceFile keyword
+SQLTraceLevel|0|0|0|6|0|-|Enable SQL trace log|Y|Enable SQL trace log, default is off
+SQLPreparedQueryFilter|-|4|2|1048576|0|-|Exclude prepared queries|Y|Exclude prepared queries. Multiple queries may be specified using & as separator.
+SQLNonPreparedQueryFilter|-|4|2|1048576|0|-|Exclude non prepared queries|Y|Exclude non prepared queries. Multiple queries may be specified using & as separator
+#HttpReqResp
+captureHttpTraceLevel|0|0|0|6|0|-|Enable HTTP trace log|Y|Enable HTTP trace log, default is off
+captureHTTPReqL1Fp|2|4|1|1048576|0|-|Http Request headers for L1Fp|Y|Capture Http Request headers for level one flowpath
+captureHTTPReqFullFp|2|4|1|1048576|0|-|Http Request headers for FullFp|Y|Capture Http Request headers for full flowpath
+captureHTTPRespL1Fp|1|4|1|1048576|0|-|Http Response headers for L1Fp|Y|Capture Http Response headers for level one flowpath
+captureHTTPRespFullFp|1|4|1|1048576|0|-|Http Response headers for FullFp|Y|Capture Http Response headers for full flowpath
+captureHTTPReqBodyL1Fp|0|4|1|1048576|0|-|Http Request body for L1Fp|Y|Capture Http Request body for level one flowpath
+captureHTTPReqBodyFullFp|0|4|1|1048576|0|-|Http Request body for FullFp|Y|Capture Http Request body for full flowpath
+captureHTTPRespBodyL1Fp|0|4|1|1048576|0|-|Http Response body for L1Fp|Y|Capture Http Response body for level one flowpath
+captureHTTPRespBodyFullFp|0|4|1|1048576|0|-|Http Response body for FullFp|Y|Capture Http Response body for full flowpath
+hdrListForValueAsId|Content-Encoding,Host,Server,Transfer-Encoding|4|0|4096|0|-|Header list for value as ID|N|Comma Separated list of HTTP headers whose value shall be sent as ID in HTTP response discovery record
+NDHTTPReqHdrCfgListFullFp|NA|5|1|1024|0|-|File containing the configured list of HTTP headers to be captured in HTTP Request for Full Flowpaths|Y|Filename containing the configured list of HTTP headers to be captured in HTTP Request for Full Flowpaths
+NDHTTPReqHdrCfgListL1Fp|NA|5|1|1024|0|-|File containing the configured list of HTTP headers to be captured in HTTP Request for Level 1 Flowpaths|Y|Filename containing the configured list of HTTP headers to be captured in HTTP Request for Level 1 Flowpaths
+NDHTTPRepHdrCfgListFullFp|NA|5|1|1024|0|-|File containing the configured list of HTTP headers to be captured in HTTP Response for Full Flowpaths|Y|Filename containing the configured list of HTTP headers to be captured in HTTP Response for Full Flowpaths
+NDHTTPRepHdrCfgListL1Fp|NA|5|1|1024|0|-|File containing the configured list of HTTP headers to be captured in HTTP Response for Level 1 Flowpaths|Y|Filename containing the configured list of HTTP headers to be captured in HTTP Response for Level 1 Flowpaths
+ndHttpHdrCaptureFileList|NA|5|1|1024|0|-|List of File containing the configured list of HTTP headers to be captured in HTTP|Y|List of Filename containing the configured list of HTTP headers to be captured in HTTP
+#Auto Sensor
+ASSampleInterval|500|3|0|5000|0|-|Auto Sensor sample interval|Y|Duration between capturing two consecutive samples of stack traces of active threads
+ASThresholdMatchCount|5|3|1|100|0|-|Auto Sensor stack trace count for marking thread as Hotspot|Y|Auto Sensor stack trace count for marking thread as Hotspot
+ASReportInterval|0|3|0|900000|0|-|Auto Sensor reporting interval for hotspot threads|Y|Auto Sensor interval for reporting hotspot threads to ND Collector
+ASReportDumpMode|1|0|0|3|0|-|AS data dump mode|Y|Auto Sensor report data dumping mode (0-never 1-socket 2-file 3-both)
+ASStateReport|1|1|0|1|0|-|Enable reporting threads count in different states|Y|Enable reporting of count of threads in different states
+ASStackComparingDepth|10|3|0|1000|0|-|Auto sensor comparing stack trace depth|Y|Auto sensor stack depth upto which two stack traces will be compared for a thread across sampling intervals
+ASStackCompareOption|1|3|1|2|0|-|Auto sensor stack comparison option|Y|Auto Sensor option for comparing stack trace of threads (1-Hashcode of stack elements, 2-Value of stack elements)
+maxStackSizeDiff|20|3|0|1000|0|-|Auto sensor comparing max diff in sample|Y|Auto sensor max stack depth difference in two samples. if difference is greater than this then do not compare and mark it as not matched
+ASMethodHotspots|0|0|0|1|0|-|AS method hotspots mode|Y|Auto Sensor hotspot mode (0-thread hotspot 1-methodHotspot)
+# Auto Sensor filtering
+ASDoNotFilterBlocked|0|1|0|1|0|-|Include blocked threads in AS data|Y|Provides ability to Ignore BLOCKED threads from Filtering and process directly for comparison of their stacks
+ASPositiveThreadFilters|NA|4|2|1048576|0|-|List of thread names to be included in AS data|Y|List of thread names (with & as separator) to be included in AS data even if they don't qualify for hotspot threads
+ASNegativeThreadFilter|NDControlConnection|4|2|1048576|0|-|List of thread names to be excluded from AS data|Y|List of thread names (with & as separator) to be excluded from AS data even if they qualify for hotsport threads
+ASDepthFilter|20|1|0|100|0|-|Minimum stack depth for a thread to be considered as hotspot|Y|Minimum stack depth for a thread to considered as hotspot
+#
+ASTraceLevel|0|1|0|20|0|-|AS trace level|Y|Auto sensor trace level
+ASDataBufferSize|64000|3|1|2147483647|0|-|AS data buffer size (kb)|Y|Auto Sensor Data Buffer Size in kilobytes
+ASDataBufferMaxCount|256|3|2|1024|0|-|Max AS data buffers|Y|Maximum number of allocated AS data buffers
+ASDataBufferMinCount|16|3|2|1024|0|-|Min AS data buffers|Y|Minimum number of allocated AS data buffers
+ASEnableFPSummaryReport|0|1|0|2|0|-|Dump FP instance in AS data|Y|Enable dumping flowpath instance for thread in hotspot summary report
+ASResumeDataBuffFreePct|25|3|1|100|0|-|Percent buffers freed to resume AS|Y|Percent data buffers to be freed for resuming auto sensor data, which got suspended when data buffers were full
+ASAllocateDataBuffOnFailure|0|1|0|1|0|-|Enable buffer allocation on failure|Y|Enable allocation of buffers in case AS data send failed
+
+#Method monitor keywords
+ndMonitorInterval|0|1|0|2147483647|0|-|Interval in milliseconds for sending Monitor report data message from BCI to ND Collector|N|Interval in milliseconds for sending Monitor report data message from BCI to ND Collector
+threadCleanUpCount|5|1|0|50|0|-|After Every threadCleanUpCount times of monitor interval thread checkup will occur to find dead threads|N|After Every threadCleanUpCount times of monitor interval thread checkup will occur to find dead threads And clean theier objects from BCI memory
+#collectASData|1|1|0|3|0|-|Reporting Monitor data to none at 0 value socket at 1 value file at 2 value and both socket and file at 3 value|N|Reporting Monitor data to none at 0 value socket at 1 value file at 2 value and both socket and file at 3 value
+ndMethodMonTraceLevel|0|1|0|10|0|-|Enable BCI Trace level for method monitoring feature|N|Enable BCI Trace level for method monitoring feature
+HTTPStatsCondCfg|NA|5|1|1024|0|-|Filename containing the HTTP header capture conditions|Y|Filename containing the HTTP header capture conditions
+ndHttpCondMonFileList|NA|5|1|1024|0|-|List of Filename containing the HTTP header capture conditions|Y|List of Filename containing the HTTP header capture conditions
+#Exceptions Capturing Keywords
+captureExceptionTraceLevel|0|1|0|10|0|-|Enable Exceptions Capturing Trace Level|N|Enable BCI Trace level for exceptions capturing
+instrExceptions|1%201%200%2020|4|0|512|0|-|Capture Exceptions|Y|Exceptions related configuration, space (%20) separated 3 fields: Enable/Disable<0/1> CaptureStackTrace<0/1> StackTraceAsID<0/1> StackTraceDepth<1-9999>
+ndExceptionFilterList|NA|4|0|10240|0|-|Comma separated list of Exceptions to be filtered out|Y|Comma separated list of exceptions to filter out
+
+#For RUM
+#setCavNVCookie|0|4|0|10240|0|-|Enable Setting Flowpath ID in Response Object |N| BCIAgent will use value of FPHeaderName and FPID as headerName and headerValue and will set in response object
+generateExceptionInMethod|0|4|0|10240|0|-|Generate exception in given method |N| Generate exception in given method generateExceptionInMethod=[numPercentage]%20[FQM(Replace ; with %3B)]
+putDelayInMethod|0|4|0|10240|0|-|Put delay in given method |N| Put delay in given method putDelayInMethod=[time_in_secs]%20[FQM(replace ; with %3B)]
+cavNVURLFile|NA|5|1|1024|0|-|Filename containing the URL List for which the cookie will be set|Y|Filename containing the URL List for which the cookie will be set 
+
+ndMethodMonFile|NA|5|1|1024|0|-|Filename containing the Methods List To Monitor|Y|Filename containing the Methods List To Monitor 
+ndMethodMonFileList|NA|5|1|1024|0|-|List of Filename containing the Methods List To Monitor|Y|List of Filename containing the Methods List To Monitor 
+ndExceptionMonFile|NA|5|1|1024|0|-|Filename containing the Exception List|Y|Filename containing the Exception List 
+ndExceptionMonFileList|NA|5|1|1024|0|-|List of Filename containing the Exception List|Y|List of Filename containing the Exception List 
+#for flowpath generation from BCI Side
+FPGMode|2|0|0|2|0|-|Enable flowpath generation from bci agent|Y| BCIAgent will use value of FPGMode and flowpath will be generated by BCI
+#maxCharInSeqBlob|10|4|0|1024000000|0|-|Max characters in a seq blob|N|Maximum no. of characters in a sequence block
+maxCharInSeqBlob|13312|4|0|1024000000|0|-|Max characters in a seq blob|N|Maximum no. of characters in a sequence block
+fpVersionID|1.0|4|0|10240|0|-|versionid for flowpath generation|N|Generating Flowpath ID, NOTE:- Not for User
+FPMaxAllowedAgeInSec|300|1|1|40000000|0|-|Maximum allowed flowpath age|Y|Whenever an entry point method is encountered, flowpath age is checked. If exceeds this value, flowpath is cleared and new is started
+
+#for backend monitoring
+enableBackendMonitor|1|1|0|1|0|-|Enable/Disable Backend Monitor |Y|Enable/Disable Backend monitor
+genNewMonRecord|1|1|0|1|0|-|Enable/Disable New Backend Monitor With TierID,ServerID |Y|Enable/Disable New Backend Monitor With TierID,ServerID
+enableBackendMonTrace|0|1|0|6|0|-|Backend Monitor trace level|Y|Backend Callout trace level
+ndBackendMonFile|NA|5|1|1024|0|-|Filename containing the Backend points|Y|Filename containing backend points
+ndBackendNamingRulesFile|NA|5|1|1024|0|-|Filename containing the rules & their definations corresponding to each type of backend call|Y|Filename containing the rules with definations w.r.t each type of backend calls
+
+#For Thread call out
+enableThreadCallout|1|4|0|10240|0|-|Enable/Disable Thread call out|Y|Enable/Disable Thread call out
+threadIdleTimeout|10|1|0|2147483647|0|-|Interval in seconds for thread idle time out|Y|Interval in seconds for thread idle time out
+
+#For keywords not to be sent to BCI
+NDP_ALLOW_FP_TO_START_WITH_SEQNUM_OTHER_THAN_1|0|0|0|1|1|-|Keyword to allow fp generation with seq num other than 1|N|Allows fp to start with sequence number other than 1
+enableJVMThreadMonitor|0%205%200|4|0|2048|0|-|Enable JVM Thread Monitor with interval and doNotDeleteReported flags|Y|Enable JVM Thread monitoring with specified duration and after %20 give targeted cpu time percentage, than at the last field after %20 give 1 for donot delete reported vectors
+enableThreadMonTraceLevel|0|1|0|10|0|-|Enable debug logs for jvm thread monitoring|N|Enable BCI Trace level for thread cpu monitoring
+ASReportBufferMaxSize|262144|3|1|2147483647|0|-|AS report data buffer max. size (kb)|Y|Auto Sensor report Buffer max Size in bytes
+
+#Business Transaction and Transaction Thresold Based Flowpath Category
+BTTConfig|NA|5|1|1024|0|-|Filename containing the thresold configurations|Y|This file will contain bot individual level thresold and as well as global level thresold, using which BCI will identify the executed transaction's category.Sample file will be found inside /opt/cavisson/netdiagnostics/config/sample/ if latest bci is installed in a machine
+BTRuleConfig|NA|5|1|1024|0|-|Filename containing rule|Y|This file will contain all the rules to be defined for every transactions for the purpose of naming, the rule will be applied at global level for all transaction for now.
+enableBTMonitor|1|1|0|1|0|-|Enable/Disable Business Transaction Monitor |Y|Enable/Disable Business Transaction Monitor
+BTAggDataArraySize|50|1|50|5000|0|-|AggregateDataSize for Transaction Monitor |Y|Aggregate Data Size for  Business Transaction Monitor
+enableBTMonitorTrace|0|1|0|6|0|-|BusinessTransaction Monitoring trace level|Y|Business Transaction Monitoring Trace
+doNotDiscardFlowPaths|0|1|0|1|0|-|After Identifying the category for levelone flowpath if we want to dump all than this keyword will be usefull|Y|After Identifying the category for levelone flowpath if we want to dump all than this keyword will be usefull with val=1
+maxBTCount|256|1|1|5000|0|-|Maximum Number of Business transactions for Business Transaction Monitor |Y|If Number of business transactions crosses this value newly urls will be known as other transactions
+maxIPCount|32|1|1|1000|0|-|Maximum Number of Integration Points with Backend Callout Monitor |Y|If Number of IP crosses this value newly discovered IP will be known as Other IPs
+BTErrorRules|NA|5|1|1024|0|-|Filename contains rule to define error condition in Business Transaction|Y|This file will contains different error rules based upon status code, redirects etc. using which identification of error catagory is done for a BT. Sample file will be found inside /opt/cavisson/netdiagnostics/config/sample/ if latest bci is installed in a machine
+
+enableFPTrace|0|1|0|3|0|-|Enable Flowpath special logs |Y|Enable Flowpath related special logs like - number of flowpaths for different categories
+enableCpuTime|0|4|0|1024|0|-|Enable CPU Profiling|Y|Enable Cpu Profiling with different mode ( 0- disable, 1- enable at flowpath / BT level, 2- enable at method level, 3- enable at bot method and flowpath level, 1%201 - enable cpu time capturing for only flowpath level where child flowpath cpu time will also be added in bt monitor data , 3%201 - enable cpu time capturing for method & BT level where child fp genereated by thread callout will also be added in cpu time for bt monitor 
+enableForcedFPChain|1|1|0|3|0|-|Enable Forced Flowpath Chain|Y|Enable Forced Flowpath Chain with modes 0- disable, 1- enable to not discard any child fp, 2- enable not to discard and also complete child flowpaths
+
+#Correlation Id header
+correlationIDHeader|-|4|0|1024|0|-|Name of Correlation ID Header|Y|HTTP Header Name for Correlation ID
+
+#ndc Bci DataConnection HeartBeat
+enableDCHeartBeat|0|1|0|3600|0|-|ndcBciDataConnectionHeartBeat|Y|ndcBciDataConnectionHeartBeat keyword to send hartbeat on data connection
+
+#database fixed backend name
+DBIPName|-|4|0|1024|0|-|Database Integration Point Name|Y|Fixed Database integration point name to combine db calls in one itegration points where sometime sqlconnection object doesn't have proper information or connection object is not available
+
+#File based generate exception keyword
+generateExceptionConfFile|NA|5|1|1024|0|-|Filename containing the name of exceptions generated in any method|Y|Filename containing the name of exceptions generated in any method
+
+#Logger and AddTry exception record
+backendErrorDetectionMode|3|4|0|2048|0|-|BackendErrorDetection Mode|Y|Exception record dumped in logger and Addtry
+
+#enable updating of log4j messages with BCI flowpaths in application logs
+enableUpdateLogMsgForNF|0|0|0|1|0|-|Enable updating log Messages |Y|Enable application log messages updation with BCI flowpaths in it.
+
+#enable Trace level for agent
+ControlThreadTraceLevel|0|1|0|4|0|-|Enable updating log Messages |Y|Enable common code control thread trace.
+AgentTraceLevel|0|1|0|4|0|-|Enable updating log Messages |Y|Enable agent code trace.
+BCITraceMaxSize|10485760|3|1024|1073741824|0|-|BCI trace max size|Y|Max trace log size of BCI.
+BTRuleOverridePolicy|1|0|0|2|0|-|BTRule Override Policy|N|Defines Method data Business Transaction override policy. (0 - dont override any thing, 1 - override always, and 2 - override only once at first occurance)
+ASEnableHotspotRecord|1|1|0|2|0|-|Enable hotspot record in dotnet |Y|Enable hotspot record in dotnet.
+ndEnableTxHotspot|1|1|0|1|0|-|Enable hotspot transaction in dotnet |Y|Enable transaction hotspot record in dotnet.
+ndHelperDepth|2|1|0|10|0|-|Set helper depth in dotnet |Y|Set helper depth in dotnet.
+ndHotspotThreadLimit|0|1|0|100|0|-|Enable hotspot limit in dotnet |Y|Enable hotspot limit in dotnet.
+
+#capture Http Session Atributes
+captureHttpSessionTraceLevel|1|0|0|3|0|-|Enable HTTP trace log|Y|Enable HTTP Session Attribute trace log, default value is 1 
+
+#flag to enable and disable check adapter
+enableCheckAdapter|1|1|0|1|0|-|Enable check adapter in Instrumentation|N|Enable check Adapter in Instrumentation
+
+#Fast Queries - for capturing Grouped Query 
+groupedQueryThreshold|0|1|0|3600000|0|-|Capture the Fast db queries - default value is 0 ms and max is 1 hour |N| It will Grouped those queries which will take less time to given threshold
+
+#capture custom data based upon the java method or some other way
+captureCustomData|NA|5|1|1024|0|-|Custom Header capturing rule|Y|This file will contain all the rules to be defined for every transactions for the purpose of capturing custom headers.
+
+#Set Header limit for 12,13,17 and 18 Record
+maxFieldValueLength|4096|1|0|1048576|0|-|set max limit for header value |Y|set max limit for header value, default value is 4096 character in kb - 4KB
+maxRecordValueLength|16384|1|0|4194304|0|-|Enable HTTP trace log|Y|set max limit for header record, default value is 16384 character in kb - 16KB
+#sleep interval for logging thread
+bciLogSleepInterval|300|3|0|30000|0|-|sleep interval for logging thread|Y|sleep interval for logging threads, default value in long -300 milisecond
+#keyword to enable or disable Status Code based Error Detection.
+enableIPStatusCode|0|1|0|1|0|-|Statuscode ErrorDetection Mode|Y|generates E record and exception data on the basis of status code.
+
+#keyword to enable capturing of DB Calls on the basis of ExecuteBatch.
+enableExecuteBatch|0|1|0|1|0|-|Enabling executebatch execution|Y|enable exceution of executeBatch method for oracle.
+
+#keyword to enable source code and variable capturing for exceptions
+enableSourceCodeFilters|NA|5|1|1024|0|-|Filename containing the patterns for applying filters for targeted classes|Y|Filename containing the patterns for applying filters for targeted classes
+enableExceptionsWithSourceAndVars|0|1|0|2048|0|-|Advanced Exception Capturing Mode|Y|Enable exception capturing with advanced mode. 0- disable, 1-enable with source code, 2-enable with variables, 3-enable with sourcecode and variables
+enableExSrcTraceLevel|0|1|0|2048|0|-|Advanced Exception Capturing trace Mode|Y|Enable exception capturing with advanced mode trace level. 0- disable, more than 0 enable 
+
+#keyword to set exception message length
+maxExceptionMessageLength|50|1|0|10000|0|-|keyword to set exception message length|Y|keyword to set exception message length.
+
+#enable log capturing on Console 
+BCILoggingMode|FILE|4|0|2048|0|-|Enabling Log on console also|Y|enable Log capturing on console also
+
+#for Resource map Detail Map
+maxResourceDetailMapSize|10000|1|0|10000000|0|-|keyword to set Resource map|Y|keyword to set size of Resource Map
+
+#keyword for foramtting url resource length
+formatIPResourceURL|1|4|0|512|0|-|Formatting URL|Y|URL formatting related configuration, space (%20) separated 3 fields: Enable/Disable<0/1> urloffsetvalue<0-256> maxURLChar<0-256> 
+
+
+#for Query map Detail Map
+maxQueryDetailMapSize|10000|1|0|10000000|0|-|keyword to set Query map|Y|keyword to set size of query Map
+
+#For ND - NV Integration
+captureMethodForAllFP|0|1|0|1|0|-|dump all instrumented non service method for level one flowpaths as well.|Y|dump all instrumented non service method for level one flowpaths as well.
+
+NVCookie|CavNVC|4|2|1048576|0|-|NetVision SID cookie name|Y|Cookie name which contains CavSID and CavPI information.
+
+enableNDSession|0|4|0|1024|0|-|Enable Setting NDSession ID in Response Object|N|Syntax - MethodEntryDepth%20MethodExitDepth%20OnResponseCommit%20SetResponseHeader%20CookieName%20domain%20idle-timeout%20maxFPAllowedInSession
+
+#File to filter exception throwing classes
+ndExceptionThrowingClassFilter|NA|5|1|1024|0|-|Exception Throwing class filter|Y|This file will contain all the classes which is throwing exception and NDAgent will not capture them
+
+#File to filter unknown class type 
+SafetyNetClassTypesFile|NA|5|1|1024|0|-|Unknown class type filter|Y|This file will contain all the classes types for which superclass is not object
+
+#keyword to enable exception record capturing in the E record
+enableExceptionInSeqBlob|0|1|0|1|0|-|Enabling capturing of e records in the Seq blob|Y|enable capturing of e records in Seq Blob.
+
+#keyword to enable exception message records in 38 Exception Record
+captureErrorLogs|0|1|0|2|0|-|Enabling capturing of message based exception record |Y|enable capturing of message based Exception record.
+
+#Keyword to transform thread sub class
+enableTransformThreadSubClass|1|1|0|1|0|-|Enable transformation of thread sub class|Y|Enable transformation of thread sub class
+
+
+#keyword to enable disable methodBreakdown Time
+enableMethodBreakDownTime|0|4|0|1024|0|-|Enable Method BreakDown Profiling|Y|Enable Method BreakDown Profiling with different mode ( 0- disable, 1- enable at flowpath / BT level, 2- enable at method level, 3- enable at both method and flowpath level, 1%201 - enable method breakDown time capturing for only flowpath level where child flowpath method breakdown time will also be calculated , 3%201 - enable cpu time capturing for method & BT level where child fp generated by thread callout will also be added in method breakdown time.
+
+#keyword to enable default cassandra Query Dumping
+dumpDefaultCassandraQuery|0|1|0|1|0|-|Enabling default cassandra query dumping|Y|Enabling default cassandra query dumping
+
+#for taking thread Dump Format in new format
+threadDumpFormat|1|1|0|1|0|-|Enable/Disable capturing of threadDump through BCI in new format|Y|Enable/Disable Capturing of ThreadDump through BCI in new format
+
+#Auto-Instrumenation Keywords/Handle DebugSession
+autoInstrSessionDuration|1800|1|120|36000|0|-|Duration for Auto-instrumentation Interval|Y|keyword to provide autoinstrSession Interval It is given in secs.By default is it 30 min.
+enableAutoInstrSession|0|4|0|512|0|-|Enable/Disable autoInstrumenatataion |Y|Enable/Disable autoInstrumentation It will have two values enableAutoInstrSession= < enable(1)/disable(0) > %20 <autoInstrSessionName> e.g. enableAutoInstrSession = 1%20CavissonATG
+minStackDepthAutoInstrSession|10|1|0|1000|0|-|Auto Instrumentation comparing max stack diff in sample|Y|Auto Instrumentation max stack depth difference in two samples. if difference is greater than this then do not compare and mark it as not matched
+autoInstrTraceLevel|1|1|0|5|0|-|Enable Auto-InstruMentation BCI debug logging|N|Enable Auto-Instrumentation BCI debug log, default is on with low level
+autoInstrSampleThreshold|120|1|0|5000|0|-|Auto Instrument sample interval|Y|Duration between capturing two consecutive samples of stack traces of active threads
+autoInstrPct|60|1|0|100|0|-|Percent for auto-Instrumentation|Y|Fraction percent number of requests for which auto-instrumentation will be done
+autoDeInstrPct|80|1|0|100|0|-|Percent Requests With FP Enabled|Y|Fraction percent number of requests for which auto-instrumentation of methods will be removed
+autoInstrMapSize|100000|1|0|10000000|0|-|keyword to set autoInstrumentation map|Y|keyword to set size of autoInstrumentation map
+autoInstrMaxAvgDuration|2|0|0|100|0|-|Percent Requests With FP Enabled|Y|Threshold value to filter methods on the basis of their avg duration
+autoInstrClassWeight|10|1|0|10000|0|-|weight for exception and exit point classes|Y|weight for exception and exit point classes
+autoInstrRetainChanges|0|1|0|1|0|-|Enable/Disable retaining of autoInstrumentation changes |Y|keyword to remove instrumentation from classes afetr auto-Instrumentation session is completed
+
+blackListForDebugSession|NA|5|1|1024|0|-|Filename containing the blacklist packages for auto-Instrumentation|Y|Filename containing packages and classes for blackList for autoInstrumentation, which can be added or removed at run time
+
+
+#NodeJS Keywords
+#Keyword|Default|Type|Min|Max|Do not Send to BCI(1- Not Send, otherwise send)||GUIName|In GUI?|Description
+excludeMethodOnRespTime|0|1|0|90000|0|-|Exclude method on response time for Nodejs|Y|enable excluding of methods which are taking more time then keyword value.
+dynamicSlowVslowThreshold|0|1|0|1|0|-|Enable Dynamic threshold for Nodejs|Y|This keyqord will dynamically set threshold for each BT on basis of lastfive samples's response time.
+eventLoopMonitor|1|1|0|1|0|-|Enable eventLoopMonitor monitor for Nodejs|Y|This keyword will give the min, max average time taken by eventLoop.
+gcProfiler|1|1|0|1|0|-|Enable gcProfiler monitor for NOdejs|Y|This keyword will give GC and heap usage info
+nodejsCpuProfilingTime|10|1|10|120|0|-|CPU profiling time for Nodejs|Y|Profile CPU for particular time for nodejs agent, it is in seconds.
+nodeAsyncEventMonitor|0|1|0|1|0|-|Enable/Disable AsyncEvent Monitor |Y|This Monitor gives asynchronous events info
+nodeServerMonitor|0|1|0|1|0|-|Enable gcProfiler monitor for NOdejs|Y|This Monitor gives server req/res info on particular node server
+enableHSLongStack|0|1|0|4|0|-|Enable capturing Hotspot LonkStack  for NOdejs|Y|This capturs Hotspot LonkStack info on particular node server.
+corelateEventCallback|0|4|0|512|0|-|Enable correlation btw event and its callback|Y|Enable correlation btw event and its callback
+
+ndILRewritterFile|NA|5|0|2048|0|-|ILRewritte File |Y|ILRewritte File for DotNet agent 
+ndModuleFile|NA|5|0|2048|0|-|Module File|Y|Module File for DotNet agent and it contains module
+ndProcessesFile|NA|5|0|2048|0|-|Processor file|Y|Processor file for DotNet agent and it contains processes
+ndPoolFile|NA|5|0|2048|0|-|Pool file|Y|Pool file for DotNet agent and it constains pools

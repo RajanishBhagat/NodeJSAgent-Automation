@@ -1,0 +1,16 @@
+--Request 
+GET http://192.208.179.130:3000/nsecomm
+Upgrade-Insecure-Requests: 1
+Accept-Language: en-in
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+----
+--Response 
+ETag: W/\"cvRBYUtk/CXKTbftd7DAnQ==\"
+Date: Wed, 10 Aug 2016 12:10:04 GMT
+Content-Length: 4518
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+----
+

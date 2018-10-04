@@ -1,0 +1,51 @@
+8/10 5:39:59|ScriptDefaultExceptionHandler|uncaughtException|Caught an unhandled exception - Non-EDT Exception in Thread-74|Following is the stack trace:
+java.lang.Exception: java.lang.IllegalArgumentException: image == null!
+	at pacAction.ScriptDefaultExceptionHandler$1.run(ScriptDefaultExceptionHandler.java:28)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(Unknown Source)
+	at javax.imageio.ImageIO.getWriter(Unknown Source)
+	at javax.imageio.ImageIO.write(Unknown Source)
+	at com.netstorm.chromium.util.ChromeSnapShotUtil.run(ChromeSnapShotUtil.java:111)
+	at java.lang.Thread.run(Unknown Source)
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = checkOutAndPlaceOrder.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm_2.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = checkOutAndPlaceOrder_2.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm_3.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = checkOutAndPlaceOrder_3.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm_4.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = checkOutAndPlaceOrder_4.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm_5.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = postgres.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm_6.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = manyTier.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm_7.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = mongodb.html
+8/10 5:41:12|ChormeParserForMainURLDump|updateUrlOfEmbeddedUrlsOfWebpageDump|Main url dump file is not existing. Dump file Name = nsecomm_8.html
+8/10 5:41:12|ChromeUtils|generateUrlInfoListDetail|Exception in creating url_info.list file |Following is the stack trace:
+java.lang.NullPointerException
+	at com.netstorm.chromium.util.ChromeParserForMainURLDump.updateUrlOfResourceImages(ChromeParserForMainURLDump.java:413)
+	at com.netstorm.chromium.util.ChromeUtils.generateUrlInfoListDetail(ChromeUtils.java:243)
+	at com.netstorm.script.formatters.c.WebCFormattor.generateScripts(WebCFormattor.java:120)
+	at com.netstorm.chromium.browser.ChromeMainFrame$7.onDisposed(ChromeMainFrame.java:379)
+	at com.teamdev.jxbrowser.chromium.ac.run(Unknown Source)
+	at com.teamdev.jxbrowser.chromium.internal.o.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

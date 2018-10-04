@@ -1,0 +1,37 @@
+--Request 
+GET http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000
+Upgrade-Insecure-Requests: 1
+Accept-Language: en-in
+Referer: http://192.208.179.130:3000/nsecomm
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+----
+--Response 
+ETag: W/\"1a2-813fff05\"
+Date: Wed, 10 Aug 2016 12:10:17 GMT
+Content-Length: 418
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+----
+--Request 
+GET http://192.208.179.130:3000/images/logo.png
+Accept-Language: en-in
+If-Modified-Since: Wed, 10 Aug 2016 11:23:40 GMT
+Referer: http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+If-None-Match: W/\"1cec-3583235245\"
+Accept: image/webp,image/*,*/*;q=0.8
+----
+--Response 
+ETag: W/\"1cec-3583235245\"
+Date: Wed, 10 Aug 2016 12:10:17 GMT
+Last-Modified: Wed, 10 Aug 2016 11:23:40 GMT
+Connection: keep-alive
+Accept-Ranges: bytes
+X-Powered-By: Express
+Cache-Control: public, max-age=0
+----
+

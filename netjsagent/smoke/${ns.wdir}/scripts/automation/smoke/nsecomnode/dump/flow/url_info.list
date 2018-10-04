@@ -1,0 +1,26 @@
+#version=1.0
+#pageName|urlType|inlineUrlId|Url|dumpFileName|ContentType|redirectionDepth|redirectUrl|UrlHost|urlFilePath|rootPath|statusCode|time(Sec.)|bytesRecieved|bodySize|method|SnapShotBeforAction|SnapShotAfterAction|snapShotClickAction|clickAPIName|future1|future2|future3|future4|future5|future6|comments
+
+nsecomm|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm.html|text/html; charset=utf-8|0|NA|/|/|./|200|0.005|0|4518|GET|webpage_1470830999593.png|webpage_1470831005257.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|image/png|0|NA|/|/resources/|./../|200|0|0|7404|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder|Main|0|http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?sleepTimeForCC=6&sleepTimeForValidate=40&level=5|checkOutAndPlaceOrder.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|422|GET|webpage_1470831011529.png|webpage_1470831012435.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|NA|0|NA|/|/resources/|./../|304|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm_2|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm_2.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|4518|GET|webpage_1470831015010.png|webpage_1470831015174.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder_2|Main|0|http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?productid=1520&sessionid=6000|checkOutAndPlaceOrder_2.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|418|GET|webpage_1470831016830.png|webpage_1470831017634.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder_2|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|NA|0|NA|/|/resources/|./../|304|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm_3|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm_3.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|4518|GET|webpage_1470831019733.png|webpage_1470831019883.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder_3|Main|0|http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?log=info&msg=Testing&count=3&level=1|checkOutAndPlaceOrder_3.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|419|GET|webpage_1470831022162.png|webpage_1470831022976.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder_3|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|NA|0|NA|/|/resources/|./../|304|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm_4|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm_4.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|4518|GET|webpage_1470831024922.png|webpage_1470831025059.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder_4|Main|0|http://192.208.179.130:3000/nsecomm/checkOutAndPlaceOrder?manymethods=yes|checkOutAndPlaceOrder_4.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|418|GET|webpage_1470831028325.png|webpage_1470831029235.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+checkOutAndPlaceOrder_4|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|NA|0|NA|/|/resources/|./../|304|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm_5|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm_5.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|4518|GET|webpage_1470831031076.png|webpage_1470831031290.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+postgres|Main|0|http://192.208.179.130:3000/nsecomm/postgres|postgres.html|text/html; charset=utf-8|0|NA|/|/|./|200|0.001|0|322|GET|webpage_1470831040199.png|webpage_1470831041383.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+postgres|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|NA|0|NA|/|/resources/|./../|304|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm_6|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm_6.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|4518|GET|webpage_1470831043665.png|webpage_1470831043857.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+manyTier|Main|0|http://192.208.179.130:3000/nsecomm/manyTier|manyTier.html|text/html; charset=utf-8|0|NA|/|/|./|200|0.001|0|418|GET|webpage_1470831051145.png|webpage_1470831052137.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+manyTier|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|NA|0|NA|/|/resources/|./../|304|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm_7|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm_7.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|4518|GET|webpage_1470831055823.png|webpage_1470831056193.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+mongodb|Main|0|http://192.208.179.130:3000/nsecomm/mongodb|mongodb.html|text/html; charset=utf-8|0|NA|/|/|./|200|0.001|0|318|GET|webpage_1470831058825.png|webpage_1470831059932.png|NA|NA|NA|NA|NA|NA|NA|NA|NA
+mongodb|Inline|1|http://192.208.179.130:3000/images/logo.png|resources/logo.png|NA|0|NA|/|/resources/|./../|304|0|0|-1|GET|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA
+nsecomm_8|Main|0|http://192.208.179.130:3000/nsecomm|nsecomm_8.html|text/html; charset=utf-8|0|NA|/|/|./|200|0|0|4518|GET|webpage_1470831062361.png|webpage_1470831062586.png|NA|NA|NA|NA|NA|NA|NA|NA|NA

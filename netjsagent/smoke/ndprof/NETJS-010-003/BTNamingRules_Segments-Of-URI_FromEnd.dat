@@ -1,0 +1,2 @@
+#RuleTypeID|SubTypeID|RuleName|SubTypeName|SequenceOrder|NumberOfSegments|DynamicSegmentType|DynamicSegmentSpecification|-
+1|2|Default|Segments-Of-URI|FromLast|3|-|-|-

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<project name="netjsagent" basedir=".">
+  <description>Netjsagent automation suite</description>
+<!--Property definition here-->
+  <property name="bash" value="/bin/bash"/>
+  <property name="ns.wdir" value="/home/netstorm/work"/>
+  <property name="lib.dir" value="${basedir}/lib"/>
+  <property name="include.dir" value="${basedir}/include"/>  
+  <property name="results.dir" value="/home/cavisson/workspace/results"/>
+  <property name="project.name" value="netjsagent"/> 
+  <property name="script.gen.report" value="${basedir}/bin/generate_report.py"/>
+  <property name="script.db.upload" value="${basedir}/bin/suite_db_uploader.py"/>
+  <property name="script.suite.runner" value="${basedir}/bin/suite_runner.sh"/>
+  <property name="script.get.latest.file" value="${basedir}/bin/get_latest_file.rb"/>
+  <property name="smoke.ant.file" value="${basedir}/smoke/build.xml"/>
+  <property name="node.server" value="10.10.30.28"/>
+  <property name="node.user" value="root"/>
+  <property name="node.passwd" value="abeona"/>
+  <property name="node.script.dir" value="/root/scripts/webapp/nsecom"/>
+  <property name="node.shell" value="${node.script.dir}/node"/>
+  <property name="node.agent.logs" value="/tmp/cavisson/logs"/>
+
+<!--End property definition-->
+ 
+<!--Target definition-->
+  <target name="smoke" depends="get-build-info, nodeserver" description="Run Smoke testsuite">
+      <ant antfile="${smoke.ant.file}" target="smoke" useNativeBasedir="true"/>
+  </target>
+
+  <target name="default">
+    <echo message="Running default target"/>
+  </target>
+
+  <target name="install-jars" description="Install ANT optional jars">
+    <mkdir dir="${user.home}/.ant/lib"/>
+    <get 
+      dest="${user.home}/.ant/lib/mail.jar" 
+      src="https://repo1.maven.org/maven2/javax/mail/mail/1.4.4/mail-1.4.4.jar"/>
+    <get 
+      dest="${user.home}/.ant/lib/activation.jar" 
+      src="https://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+  </target>
+
+  <target name="get-build-info" description="Get release and build information">
+    <exec executable="bash" outputproperty="release.info">
+      <arg value="-c"/>
+      <arg value="cat ${ns.wdir}/etc/version|head -1|awk '{print $2}'"/>
+    </exec>
+    <exec executable="bash" outputproperty="build.info">
+      <arg value="-c"/>
+      <arg value="cat ${ns.wdir}/etc/version|tail -1|awk '{print $2}'"/>
+    </exec>
+    <echo message="Current Build: R${release.info}.B${build.info}"/>
+  </target>
+<!-- nodejs installation on server -->
+ <target name="nodeserver" description="start netjsagent">
+
+ <sshexec host="${node.server}"                                                              
+          username="${node.user}"                                                          
+          password="${node.passwd}"                                                        
+          trust="true"                                                                   
+          command="rm -f ${node.agent.logs}/*.*"/>              
+ <sshexec host="${node.server}"                                                              
+          username="${node.user}"                                                          
+          password="${node.passwd}"                                                        
+          trust="true"                                                                   
+          command="${node.shell} stop install start status"/>              
+        <!--  command="${node.shell} stop install start status"/>  -->
+ </target>
+<!--End target definition-->
+</project>
